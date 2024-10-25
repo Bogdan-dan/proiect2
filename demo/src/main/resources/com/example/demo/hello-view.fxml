@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="446.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.openHelpController">
+   <children>
+      <ImageView fitHeight="104.0" fitWidth="651.0" layoutY="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../imaginiCopy/LuxuryNavyBackground.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="256.0" layoutY="16.0" pickOnBounds="true" AnchorPane.bottomAnchor="404.0" AnchorPane.leftAnchor="256.0" AnchorPane.rightAnchor="369.0" AnchorPane.topAnchor="16.0">
+         <image>
+            <Image url="@../../../imaginiCopy/Ro@3x.png" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="28.0" prefWidth="181.0" text="NoBooking.com" textFill="WHITE">
+         <font>
+            <Font name="Corbel Bold" size="21.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="222.0" layoutY="21.0" text="RON" textFill="WHITE">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <ImageView fitHeight="35.0" fitWidth="26.0" layoutX="313.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imaginiCopy/question.png" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <Button fx:id="butonhelp" alignment="CENTER" contentDisplay="CENTER" defaultButton="true" graphicTextGap="0.0" layoutX="312.0" layoutY="17.0" minWidth="27.0" mnemonicParsing="false" onAction="#openHelp" opacity="0.0" prefHeight="26.0" prefWidth="27.0" textFill="#ffffff00">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ScrollPane hbarPolicy="NEVER" layoutX="5.0" layoutY="103.0" prefHeight="306.0" prefWidth="645.0" vbarPolicy="ALWAYS">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="427.0" prefWidth="644.0">
+               <children>
+                  <VBox fx:id="camereview" prefHeight="298.0" prefWidth="627.0">
+                     <children>
+                        <AnchorPane prefHeight="57.0" prefWidth="627.0">
+                           <children>
+                              <ImageView fitHeight="77.0" fitWidth="628.0" opacity="0.53" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../../../imaginiCopy/gray.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="75.0" fitWidth="84.0" layoutY="2.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../../../imaginiCopy/tipuridecameredehotel.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Text layoutX="84.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Camera 100" wrappingWidth="130.181640625">
+                                 <font>
+                                    <Font name="Corbel Bold" size="20.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="92.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aceasta camera este de o persoana." wrappingWidth="231.181640625">
+                                 <font>
+                                    <Font name="Corbel" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="95.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rating : " wrappingWidth="54.0">
+                                 <font>
+                                    <Font name="Corbel" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Label fx:id="r1" layoutX="149.0" layoutY="45.0" prefHeight="17.0" prefWidth="35.0">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Text layoutX="566.0" layoutY="16.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pret :" wrappingWidth="47.572265625">
+                                 <font>
+                                    <Font name="Corbel" size="18.0" />
+                                 </font>
+                              </Text>
+                              <Label fx:id="p1" layoutX="550.0" layoutY="22.0" prefHeight="17.0" prefWidth="71.0" textFill="#2713da">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane blendMode="SRC_ATOP" layoutX="10.0" layoutY="10.0" prefHeight="57.0" prefWidth="627.0" translateY="5.0">
+                           <children>
+                              <ImageView fitHeight="77.0" fitWidth="628.0" opacity="0.53" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../../../imaginiCopy/gray.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="75.0" fitWidth="84.0" layoutY="2.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../../../imaginiCopy/tipuridecameredehotel.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Text layoutX="84.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Camera 101" wrappingWidth="130.181640625">
+                                 <font>
+                                    <Font name="Corbel Bold" size="20.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="92.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aceasta camera este de o persoana." wrappingWidth="231.181640625">
+                                 <font>
+                                    <Font name="Corbel" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="95.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rating : " wrappingWidth="54.0">
+                                 <font>
+                                    <Font name="Corbel" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Label fx:id="r2" layoutX="149.0" layoutY="45.0" prefHeight="17.0" prefWidth="35.0">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Pret :" translateX="565.0" translateY="15.0" wrappingWidth="47.572265625">
+                                 <font>
+                                    <Font name="Corbel" size="18.0" />
+                                 </font>
+                              </Text>
+                              <Label fx:id="p2" layoutX="-13.0" prefHeight="17.0" prefWidth="67.0" textFill="#2713da" translateX="565.0" translateY="15.0">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane blendMode="SRC_ATOP" layoutX="10.0" layoutY="87.0" prefHeight="57.0" prefWidth="627.0" translateY="10.0">
+                           <children>
+                              <ImageView fitHeight="77.0" fitWidth="628.0" opacity="0.53" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../../../imaginiCopy/gray.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="75.0" fitWidth="84.0" layoutY="2.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../../../imaginiCopy/tipuridecameredehotel.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Text layoutX="84.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Camera 102" wrappingWidth="130.181640625">
+                                 <font>
+                                    <Font name="Corbel Bold" size="20.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="92.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aceasta camera este de o persoana." wrappingWidth="231.181640625">
+                                 <font>
+                                    <Font name="Corbel" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="95.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rating : " wrappingWidth="54.0">
+                                 <font>
+                                    <Font name="Corbel" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Label fx:id="r3" layoutX="149.0" layoutY="45.0" prefHeight="17.0" prefWidth="35.0">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Pret :" translateX="565.0" translateY="15.0" wrappingWidth="47.572265625">
+                                 <font>
+                                    <Font name="Corbel" size="18.0" />
+                                 </font>
+                              </Text>
+                              <Label fx:id="p3" layoutX="-10.0" prefHeight="17.0" prefWidth="64.0" textFill="#2713da" translateX="565.0" translateY="15.0">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane blendMode="SRC_ATOP" layoutX="10.0" layoutY="164.0" prefHeight="57.0" prefWidth="627.0" translateY="15.0">
+                           <children>
+                              <ImageView fitHeight="77.0" fitWidth="628.0" opacity="0.53" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../../../imaginiCopy/gray.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="75.0" fitWidth="84.0" layoutY="2.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../../../imaginiCopy/poza2.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Text layoutX="84.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Camera 201" wrappingWidth="130.181640625">
+                                 <font>
+                                    <Font name="Corbel Bold" size="20.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="92.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aceasta camera este de 2 persoane." wrappingWidth="231.181640625">
+                                 <font>
+                                    <Font name="Corbel" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="95.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rating : " wrappingWidth="54.0">
+                                 <font>
+                                    <Font name="Corbel" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Label fx:id="r4" layoutX="149.0" layoutY="45.0" prefHeight="17.0" prefWidth="35.0">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Pret :" translateX="565.0" translateY="15.0" wrappingWidth="47.572265625">
+                                 <font>
+                                    <Font name="Corbel" size="18.0" />
+                                 </font>
+                              </Text>
+                              <Label fx:id="p4" layoutX="-10.0" prefHeight="17.0" prefWidth="66.0" textFill="#2713da" translateX="565.0" translateY="15.0">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </children></VBox>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <ImageView fitHeight="26.0" fitWidth="27.0" layoutX="14.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imaginiCopy/patu.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="41.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rezerva o camera!">
+         <font>
+            <Font name="Corbel Bold" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Button fx:id="rez" graphicTextGap="0.0" layoutX="41.0" layoutY="76.0" minHeight="12.0" mnemonicParsing="false" onAction="#openRez" opacity="0.0" prefHeight="12.0" prefWidth="95.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="1.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="35.0" fitWidth="34.0" layoutX="603.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imaginiCopy/acc.png" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <Text fill="WHITE" layoutX="531.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Utilizator">
+         <font>
+            <Font name="Corbel Bold" size="14.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Button fx:id="utilizator" graphicTextGap="0.0" layoutX="603.0" layoutY="18.0" minWidth="44.0" mnemonicParsing="false" onAction="#openUtilizator" opacity="0.0" prefHeight="30.0" prefWidth="44.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

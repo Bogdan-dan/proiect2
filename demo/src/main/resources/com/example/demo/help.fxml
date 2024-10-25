@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.openHelpController">
+   <children>
+      <ImageView fitHeight="127.0" fitWidth="600.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../imaginiCopy/Luxury1.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="22.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ai nevoie de ajutor?" wrappingWidth="266.26904296875">
+         <font>
+            <Font name="Corbel Bold" size="35.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="50.0" fitWidth="33.0" layoutX="22.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imaginiCopy/chat.PNG" />
+         </image>
+      </ImageView>
+      <Text layoutX="55.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Trimiteți-ne un mesaj">
+         <font>
+            <Font name="Corbel Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="55.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contactați agenții noștri cu privire la rezervarea dvs. și vom răspunde cât mai curând posibil." wrappingWidth="178.0">
+         <font>
+            <Font name="Corbel" size="10.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="61.0" fitWidth="33.0" layoutX="338.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imaginiCopy/call.PNG" />
+         </image>
+      </ImageView>
+      <Text layoutX="371.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sunați-ne">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="371.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pentru orice urgență, ne puteți suna non-stop la un număr local sau internațional." wrappingWidth="178.0">
+         <font>
+            <Font name="Corbel" size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="30.0" layoutY="311.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Numarul nostru : 07xxxxxxx">
+         <font>
+            <Font name="Corbel Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="28.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email-ul nostru : Nobooking@yahoo.com">
+         <font>
+            <Font name="Corbel Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="28.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Incercam sa raspundem cat de rapid se poate!">
+         <font>
+            <Font name="Corbel Bold" size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
